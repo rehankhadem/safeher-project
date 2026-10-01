@@ -303,7 +303,7 @@ function ExploreView({ incidents, onReport, onEmergency }: { incidents: Incident
   return (
     <main className="main-content">
       <section className="welcome-row">
-        <div><p className="eyebrow">Saturday, September 28, 2026 <span className="eyebrow-dot" /> Dhaka, Bangladesh</p><h1>Where are you heading?</h1><p className="subheading">We fetch real walking routes and score them by safety.</p></div>
+        <div><p className="eyebrow"><span className="eyebrow-dot" /> Dhaka, Bangladesh</p><h1>Where are you heading?</h1><p className="subheading">We fetch real walking routes and score them by safety.</p></div>
         <button className="report-button" onClick={onReport}><Plus size={17} /> Report an incident</button>
       </section>
 
